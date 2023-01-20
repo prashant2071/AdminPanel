@@ -1,0 +1,34 @@
+.navbar{
+    height: 50px;
+    border-bottom: 0.5px solid rgb(231,228,228);
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #555;
+
+    .wrapper{
+        display: flex;
+        width:100%;
+        padding: 20px;
+        justify-content: space-between;
+        align-items: center;
+        
+        .search{
+            display: flex;
+            align-items: center;
+            border: 0.5px solid lightgrey;
+            padding: 3px;
+            input{
+                border: none;
+                outline: none;
+                background-color: transparent;
+                &::placeholder{
+                    font-size: 14px;
+                }
+            }
+        }
+        .items{
+            display: flex;
+        }
+    }
+}

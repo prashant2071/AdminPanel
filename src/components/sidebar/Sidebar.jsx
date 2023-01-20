@@ -81,7 +81,6 @@ const Sidebar = () => {
       <div className="buttom">
         <div className="colorOption"></div>
         <div className="colorOption"></div>
-        <div className="colorOption"></div>
 
       </div>
     </div>
