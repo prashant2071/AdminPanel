@@ -6,13 +6,16 @@ import FullscreenExitOutlinedIcon from "@mui/icons-material/FullscreenExitOutlin
 import NotificationsNoneOutlinedIcon from "@mui/icons-material/NotificationsNoneOutlined";
 import ChatBubbleOutlineOutlinedIcon from "@mui/icons-material/ChatBubbleOutlineOutlined";
 import ListOutlinedIcon from "@mui/icons-material/ListOutlined";
+import userimg from '../../assets/image/avatar/prashant.JPG'
+// import userimg from '../../assets/image/avatar/user.png'
+
 const Navbar = () => {
   return (
     <div className="navbar">
       <div className="wrapper">
         <div className="search">
           <input type="text" placeholder='search...'/>
-          <SearchIcon/>
+          <SearchIcon className='searchIcon'/>
         </div>
         <div className='items'>
           <div className='item'>
@@ -20,24 +23,28 @@ const Navbar = () => {
             English
           </div>
           <div className='item'>
-            <DarkModeOutlinedIcon className="icon"/>
-            
+            <DarkModeOutlinedIcon className="icon"/>            
           </div>
           <div className='item'>
-            <FullscreenExitOutlinedIcon className="icon"/>
-            
+            <FullscreenExitOutlinedIcon className="icon"/>            
           </div>
           <div className='item'>
-            <NotificationsNoneOutlinedIcon className="icon"/>
-            
+            <NotificationsNoneOutlinedIcon className="icon"/> 
+            <div className='counter'>1</div>           
           </div>
           <div className='item'>
-            <ChatBubbleOutlineOutlinedIcon className="icon"/>
-            
+            <ChatBubbleOutlineOutlinedIcon className="icon"/>  
+            <div className='counter'>3</div>           
+          
           </div>
           <div className='item'>
-            <ListOutlinedIcon className="icon"/>
-            
+            <ListOutlinedIcon className="icon"/>            
+          </div>
+          <div className='item'>
+            <img src={userimg}
+            alt=''
+            className="avatar"
+             />
           </div>
         </div>
       </div>
