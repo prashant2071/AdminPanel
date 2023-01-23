@@ -1,3 +1,17 @@
 .feature{
-    
+    flex: 2;
+    box-shadow: 10px 10px 9px -8px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 9px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 9px -8px rgba(0,0,0,0.75);
+    padding: 10px;
+    .top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .title{
+            font-size: 16px;
+            font-weight: 500;
+            color: #6b6b6b;
+        }
+    }
 }
