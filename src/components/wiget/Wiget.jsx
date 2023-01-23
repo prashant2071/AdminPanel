@@ -4,7 +4,6 @@ import PersonIcon from '@mui/icons-material/Person';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import AccountBalanceWalletIcon from '@mui/icons-material/AccountBalanceWallet';
 import MonetizationOnIcon from '@mui/icons-material/MonetizationOn';
-import { yellow } from '@mui/material/colors';
 const wiget = ({type}) => {
   let data;
    
@@ -18,7 +17,7 @@ const wiget = ({type}) => {
         isMoney:false,
         link:"see all users",
         icon:<PersonIcon className='icon' style={{
-          backgroundColor: "rgb(169, 117, 126)",
+          backgroundColor: "#f28e9e",
           color:"black"
         }}/>
       }
@@ -30,8 +29,8 @@ const wiget = ({type}) => {
           link:"see all orders",
           icon:<ShoppingCartIcon className='icon'
           style={{
-            backgroundColor: "#9c9c56",
-            color:"#ffff00"
+            backgroundColor: "#f7f7a6",
+            color:"#a4a413"
           }}/>
         }
         break;
@@ -54,8 +53,8 @@ const wiget = ({type}) => {
             link:"see details",
             icon:<AccountBalanceWalletIcon className='icon'
             style={{
-              backgroundColor:"#955b67",
-              color:"#3d1f1f"
+              backgroundColor:"#cd89e6",
+              color:"#785286"
             }}/>
           }
           break;
