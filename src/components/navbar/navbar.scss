@@ -43,6 +43,14 @@
 
                 .icon{
                     font-size: 27px;
+
+                    &:hover{
+                        cursor: pointer;
+                        height: 40px;
+                        width: 40px;
+                        border-radius: 7px;
+                        background-color:  #f6f6f7;
+                    }
                 }
                 .avatar{
                     height: 40px;
