@@ -17,8 +17,13 @@ const columns = [
     description: 'This column has a value getter and is not sortable.',
     sortable: false,
     width: 160,
-    valueGetter: (params) =>
-      `${params.row.firstName || ''} ${params.row.lastName || ''}`,
+    renderCell: (params) =>{
+       return( <>
+        <span>{params.row.firstName}</span>&nbsp;
+        <p>{params.row.lastName}</p>
+        </>
+       )
+    }
   },
 ];
 
