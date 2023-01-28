@@ -8,7 +8,13 @@ const New = () => {
       <Sidebar/>
       <div className='newContainer'>
         <Navbar/>
-        test
+        <div className="top">
+          <h1>Add New User</h1>
+        </div>
+        <div className="buttom">
+          <div className="left">left</div>
+          <div className="right">right</div>
+        </div>
       </div>
     </div>
   )
