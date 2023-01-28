@@ -1,5 +1,9 @@
 import Sidebar from '../../components/sidebar/Sidebar'
 import Navbar from '../../components/navbar/Navbar'
+import Chart from '../../components/chart/Chart'
+import TableList from '../../components/table/Table'
+
+
 import './single.scss'
 const Single = () => {
   return (
@@ -39,9 +43,14 @@ const Single = () => {
               </div>
             </div>
           </div>
-          <div className="right"></div>
+          <div className="right">
+            <Chart aspect={3/1} title="User spending (last 6 month)"/>
+          </div>
         </div>
-        <div className="buttom"></div>
+        <div className="buttom">
+        <div className="title">Last Transaction</div>
+          <TableList/>
+        </div>
       </div>
     </div>
   )

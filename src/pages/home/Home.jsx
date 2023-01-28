@@ -4,7 +4,7 @@ import Navbar from '../../components/navbar/Navbar'
 import Wiget from '../../components/wiget/Wiget'
 import Feature from '../../components/featured/Featured'
 import Chart from '../../components/chart/Chart';
-import Table from '../../components/table/Table';
+import TableList from '../../components/table/Table';
 
 
 const Home = () => {
@@ -21,11 +21,11 @@ const Home = () => {
       </div>
       <div className="charts">
         <Feature/>
-        <Chart/>
+        <Chart aspect={2/1} title="Last 6 month (Revenue)"/>
       </div>
       <div className="listContainer">
         <div className="listTitle">Latest transaction</div>
-        <Table/>
+        <TableList/>
       </div>
       </div>
     </div>

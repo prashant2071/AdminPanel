@@ -7,7 +7,7 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 
-const List = () => {
+const TableList = () => {
     const rows = [
         {
           id: 1143155,
@@ -103,4 +103,4 @@ const List = () => {
     )
 }
 
-export default List
+export default TableList
