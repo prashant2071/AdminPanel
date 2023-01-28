@@ -41,13 +41,22 @@ const rows = [
 ];
 
 const Datatables = () => {
+  const actionColumn = [{feild:"action",headerName:"Action",width:200,renderCell:()=>{
+    return(
+      <div className='cellAction'>
+        <div className="viewButton">View</div>
+        <div className="deleteButton">Delete</div>
+
+      </div>
+    )
+  }}]
   return (
     <div className="datatables">
         <DataGrid
         rows={userRows}
-        columns={userColumn}
-        pageSize={5}
-        rowsPerPageOptions={[5]}
+        columns={userColumn.concat(actionColumn)}
+        pageSize={9}
+        rowsPerPageOptions={[9]}
         checkboxSelection
       />
     </div>
