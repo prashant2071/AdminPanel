@@ -44,8 +44,8 @@ const Datatables = () => {
   return (
     <div className="datatables">
         <DataGrid
-        rows={rows}
-        columns={columns}
+        rows={userRows}
+        columns={userColumn}
         pageSize={5}
         rowsPerPageOptions={[5]}
         checkboxSelection
