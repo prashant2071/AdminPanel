@@ -12,7 +12,10 @@ const New = () => {
           <h1>Add New User</h1>
         </div>
         <div className="buttom">
-          <div className="left">left</div>
+          <div className="left">
+            <img src="https://icon-library.com/images/no-image-icon/no-image-icon-0.jpg"
+            alt=""/>
+          </div>
           <div className="right">right</div>
         </div>
       </div>
