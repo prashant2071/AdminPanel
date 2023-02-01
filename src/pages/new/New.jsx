@@ -3,14 +3,14 @@ import Navbar from '../../components/navbar/Navbar';
 import Sidebar from '../../components/sidebar/Sidebar';
 import DriveFolderUploadIcon from '@mui/icons-material/DriveFolderUpload';
 
-const New = () => {
+const New = ({inputs,title}) => {
   return (
     <div className='new'>
       <Sidebar/>
       <div className='newContainer'>
         <Navbar/>
         <div className="top">
-          <h1>Add New User</h1>
+          <h1>{title}</h1>
         </div>
         <div className="buttom">
           <div className="left">

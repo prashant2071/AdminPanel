@@ -30,6 +30,7 @@
                 display: flex;
                 flex-wrap: wrap;
                 gap: 20px;
+                justify-content: space-around;
                 .formInput{
                     width: 40%;
                     label{
@@ -50,9 +51,13 @@
                 }
                 button{
                     width: 150px;
-                    padding: 10px;
+                    padding: 5px;
                     background-color: teal;
                     color: white;
+                    font-weight: bold;
+                    cursor: pointer;
+                    border-radius: 5px;
+                    margin-top: 10px;
                 }
             }
         }
