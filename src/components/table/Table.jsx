@@ -78,7 +78,7 @@ const TableList = () => {
           {rows.map((row) => (
             <TableRow
               key={row.id}>
-              <TableCell >
+              <TableCell className="tableCell" >
                 {row.id}
               </TableCell>
               <TableCell className="tableCell">

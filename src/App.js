@@ -4,15 +4,17 @@ import List from './pages/list/List';
 import Login from './pages/login/Login'
 import Single from './pages/single/Single'
 import New from './pages/new/New';
+import "./style/dark.scss";
 import {
   Routes,
   Route,
   BrowserRouter
 } from "react-router-dom";
 import { productInputs, userInputs } from './formSource';
+import { useState } from 'react';
 function App() {
   return (
-    <div >
+    <div className={"app"}>
       <BrowserRouter>
       <Routes>
         <Route path='/'>
