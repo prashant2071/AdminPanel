@@ -57,7 +57,8 @@
         padding: 2px 5px;
         border-radius: 5px;
         color: darkblue;
-        border: 1px dotted rgb(17, 61, 238)
+        border: 1px dotted rgb(17, 61, 238);
+        cursor: pointer;
 
         }
         .deleteButton{
@@ -65,6 +66,7 @@
             border-radius: 5px;
             color: darkred;
             border: 1px dotted rgb(246, 39, 39);
+            cursor: pointer;
         }
     }
 
